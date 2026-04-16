@@ -1,0 +1,10 @@
+<svg width="1600" height="1200" viewBox="0 0 1600 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="1200" rx="64" fill="#EEF2F7"/>
+  <rect x="460" y="250" width="680" height="650" rx="36" fill="#D7DEE7"/>
+  <rect x="675" y="450" width="250" height="450" rx="16" fill="#0F172A"/>
+  <path d="M530 440L800 255L1070 440" stroke="#0F172A" stroke-width="54" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M545 440H1055L995 540H605L545 440Z" fill="#0F172A"/>
+  <text x="150" y="190" fill="#0F172A" font-family="Arial, sans-serif" font-size="54" font-weight="700">Apex Door Canopies</text>
+  <text x="150" y="280" fill="#475569" font-family="Arial, sans-serif" font-size="34">Pitched profile with strong structure</text>
+</svg>
+

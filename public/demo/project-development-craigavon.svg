@@ -1,0 +1,13 @@
+<svg width="1600" height="1200" viewBox="0 0 1600 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="1200" rx="64" fill="#1E293B"/>
+  <rect x="700" y="255" width="250" height="660" rx="28" fill="#F8FAFC" fill-opacity="0.92"/>
+  <rect x="985" y="255" width="250" height="660" rx="28" fill="#F8FAFC" fill-opacity="0.92"/>
+  <path d="M655 455L825 330L995 455" stroke="#111827" stroke-width="42" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M940 455L1110 330L1280 455" stroke="#111827" stroke-width="42" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M665 455H985L940 540H710L665 455Z" fill="#111827"/>
+  <path d="M950 455H1270L1225 540H995L950 455Z" fill="#111827"/>
+  <text x="120" y="220" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="84" font-weight="700">Development canopy</text>
+  <text x="120" y="316" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="84" font-weight="700">scheme work</text>
+  <text x="120" y="408" fill="#CBD5E1" font-family="Arial, sans-serif" font-size="40">Craigavon</text>
+</svg>
+

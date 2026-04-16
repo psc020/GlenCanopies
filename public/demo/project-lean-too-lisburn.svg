@@ -1,0 +1,15 @@
+<svg width="1600" height="1200" viewBox="0 0 1600 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="1200" rx="64" fill="#111827"/>
+  <rect x="820" y="250" width="620" height="665" rx="34" fill="#E5E7EB"/>
+  <rect x="980" y="455" width="170" height="460" rx="14" fill="#111827"/>
+  <rect x="1170" y="455" width="170" height="460" rx="14" fill="#111827"/>
+  <path d="M900 410H1420L1365 515H955L900 410Z" fill="#111827"/>
+  <path d="M955 330H1460" stroke="#111827" stroke-width="34" stroke-linecap="round"/>
+  <circle cx="1035" cy="510" r="17" fill="#F8FAFC"/>
+  <circle cx="1160" cy="510" r="17" fill="#F8FAFC"/>
+  <circle cx="1285" cy="510" r="17" fill="#F8FAFC"/>
+  <text x="140" y="220" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="92" font-weight="700">Lean-Too canopy</text>
+  <text x="140" y="326" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="92" font-weight="700">with LED lights</text>
+  <text x="140" y="420" fill="#CBD5E1" font-family="Arial, sans-serif" font-size="40">Lisburn</text>
+</svg>
+

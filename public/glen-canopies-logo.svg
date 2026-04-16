@@ -1,0 +1,36 @@
+<svg width="920" height="240" viewBox="0 0 920 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gold" x1="118" y1="18" x2="796" y2="220" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F2BD1D"/>
+      <stop offset="0.48" stop-color="#FDB52A"/>
+      <stop offset="1" stop-color="#FFE2AE"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="920" height="240" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#000000" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <path d="M42 192L324 20L456 192" stroke="url(#gold)" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M878 192L596 20L464 192" stroke="url(#gold)" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M177 170C264 160 355 155 456 155C557 155 648 160 735 170" stroke="url(#gold)" stroke-width="16" stroke-linecap="round"/>
+    <path d="M456 30V168" stroke="url(#gold)" stroke-width="16" stroke-linecap="round"/>
+    <circle cx="456" cy="176" r="18" fill="url(#gold)"/>
+
+    <path d="M148 166L321 57L439 166H148Z" fill="#0D090B" fill-opacity="0.94"/>
+    <path d="M473 166L591 57L764 166H473Z" fill="#0D090B" fill-opacity="0.94"/>
+
+    <text
+      x="460"
+      y="225"
+      text-anchor="middle"
+      fill="white"
+      font-family="Arial Narrow, Arial, sans-serif"
+      font-size="74"
+      font-weight="700"
+      letter-spacing="3"
+    >
+      GLEN CANOPIES
+    </text>
+  </g>
+</svg>

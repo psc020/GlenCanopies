@@ -1,0 +1,12 @@
+<svg width="1600" height="1200" viewBox="0 0 1600 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="1200" rx="64" fill="#0F172A"/>
+  <rect x="770" y="255" width="670" height="660" rx="34" fill="#E2E8F0"/>
+  <rect x="915" y="435" width="220" height="220" rx="18" fill="#111827"/>
+  <rect x="1080" y="435" width="20" height="220" fill="#F8FAFC" fill-opacity="0.85"/>
+  <rect x="915" y="535" width="220" height="20" fill="#F8FAFC" fill-opacity="0.85"/>
+  <path d="M885 390L1025 316L1165 390" stroke="#111827" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="140" y="220" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="92" font-weight="700">All-black window</text>
+  <text x="140" y="326" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="92" font-weight="700">canopy detail</text>
+  <text x="140" y="420" fill="#CBD5E1" font-family="Arial, sans-serif" font-size="40">Derry</text>
+</svg>
+

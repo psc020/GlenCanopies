@@ -1,0 +1,12 @@
+<svg width="1600" height="1200" viewBox="0 0 1600 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="1200" rx="64" fill="#1F2937"/>
+  <rect x="860" y="250" width="520" height="665" rx="34" fill="#F5F2EB"/>
+  <rect x="980" y="460" width="150" height="455" rx="14" fill="#111827"/>
+  <rect x="1150" y="460" width="150" height="455" rx="14" fill="#111827"/>
+  <path d="M860 425C960 286 1280 286 1380 425" stroke="#111827" stroke-width="42" stroke-linecap="round"/>
+  <path d="M860 425H1380L1325 530H915L860 425Z" fill="#111827"/>
+  <text x="140" y="220" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="92" font-weight="700">Roman double</text>
+  <text x="140" y="326" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="92" font-weight="700">door canopy</text>
+  <text x="140" y="420" fill="#D1D5DB" font-family="Arial, sans-serif" font-size="40">Belfast</text>
+</svg>
+

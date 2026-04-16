@@ -1,0 +1,9 @@
+<svg width="1600" height="1200" viewBox="0 0 1600 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="1200" rx="64" fill="#E2E8F0"/>
+  <rect x="430" y="250" width="740" height="660" rx="36" fill="#F8FAFC"/>
+  <rect x="690" y="460" width="220" height="450" rx="16" fill="#334155"/>
+  <path d="M560 430H1040L995 520H605L560 430Z" fill="#334155"/>
+  <path d="M620 350H1080" stroke="#334155" stroke-width="28" stroke-linecap="round"/>
+  <text x="140" y="220" fill="#111827" font-family="Arial, sans-serif" font-size="90" font-weight="700">Canopy project</text>
+  <text x="140" y="320" fill="#475569" font-family="Arial, sans-serif" font-size="42">Fallback visual used when live project imagery is unavailable</text>
+</svg>
