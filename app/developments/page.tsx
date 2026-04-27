@@ -71,7 +71,7 @@ export default async function DevelopmentsPage({
         eyebrow="Development Work"
         title="Development & Scheme Work"
         description="Glen Canopies supplies and fits canopy systems for housing developments, social housing projects, and multi-property installations."
-        backgroundImageSrc="/brand/page-headers/developmentscheme.jpg"
+        backgroundImageSrc="/brand/page-headers/developmentscheme.webp"
         backgroundPosition="center 55%"
       />
       <section className="shell-container section-space space-y-8">

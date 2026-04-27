@@ -3,15 +3,15 @@ import type { Project } from "@/types/project";
 const staticServiceImageMap: Record<string, string> = {
   canopies: "/brand/services/apex-canopies.jpg",
   "roman-canopies": "/brand/services/roman-canopies.jpg",
-  "small-lean-to-canopies": "/brand/services/small-lean-to-canopies.jpg",
+  "small-lean-to-canopies": "/brand/services/small-lean-to-canopies.webp",
   "large-lean-to-canopies": "/brand/services/large-lean-to-canopies.jpg",
-  "flat-top-canopies": "/brand/services/flat-top-canopies.jpg",
+  "flat-top-canopies": "/brand/services/flat-top-canopies.webp",
   "apex-canopies": "/brand/services/apex-canopies.jpg",
   "door-surrounds": "/brand/services/door-surrounds.jpg",
   columns: "/brand/services/columns.jpg",
   "pvc-sills": "/brand/services/pvc-sills.jpg",
   "aluminium-sills": "/brand/services/aluminium-sills.jpg",
-  chimneys: "/brand/services/chimneys.jpg",
+  chimneys: "/brand/services/chimneys.webp",
 };
 
 export function getServiceShowcaseImage(projects: Project[], serviceSlug: string) {

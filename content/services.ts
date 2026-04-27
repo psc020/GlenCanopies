@@ -111,7 +111,7 @@ export const services: Service[] = [
     introParagraphs: traditionalCanopyLeadParagraphs,
     overview:
       "A clean, modern canopy designed to cover the entrance door. One of the most popular options for a simple but effective upgrade.",
-    heroImage: "/brand/services/small-lean-to-canopies.jpg",
+    heroImage: "/brand/services/small-lean-to-canopies.webp",
     benefits: [
       "Clean, modern look for the entrance door",
       "One of the most popular simple upgrades",
@@ -187,7 +187,7 @@ export const services: Service[] = [
       "A flat top canopy is a minimalist approach to improving the entrance of your home while still giving practical shelter and a clean modern finish.",
     introParagraphs: traditionalCanopyLeadParagraphs,
     overview: "A minimal, modern canopy option for smaller entrances with a clean finish.",
-    heroImage: "/brand/services/flat-top-canopies.jpg",
+    heroImage: "/brand/services/flat-top-canopies.webp",
     benefits: [
       "Minimal, modern profile for smaller entrances",
       "Keeps the frontage clean and understated",
@@ -225,7 +225,7 @@ export const services: Service[] = [
       "Apex canopies are a strong feature to add to the front of your home, offering both visual impact and practical protection from the elements.",
     introParagraphs: traditionalCanopyLeadParagraphs,
     overview: "A pitched canopy design that adds structure, style, and protection to the entrance.",
-    heroImage: "/brand/services/chimneys.jpg",
+    heroImage: "/brand/services/chimneys.webp",
     benefits: [
       "Adds visual impact and practical protection",
       "Designed and tailored to suit the property",
