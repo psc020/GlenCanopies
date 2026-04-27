@@ -4,7 +4,11 @@ import { absoluteHttpUrl } from "@/lib/utils";
 
 function getAllowedHosts() {
   const hosts = new Set<string>();
-  const configuredHosts = process.env.SPIFFY_ALLOWED_IMAGE_HOSTS?.split(",").map((item) => item.trim());
+  const configuredHosts = (
+    process.env.APIFY_ALLOWED_IMAGE_HOSTS || process.env.SPIFFY_ALLOWED_IMAGE_HOSTS
+  )
+    ?.split(",")
+    .map((item) => item.trim());
 
   for (const host of configuredHosts ?? []) {
     if (host) {
@@ -12,8 +16,10 @@ function getAllowedHosts() {
     }
   }
 
-  if (process.env.SPIFFY_API_URL) {
-    hosts.add(new URL(process.env.SPIFFY_API_URL).hostname);
+  const apiBaseUrl = process.env.APIFY_API_URL || process.env.SPIFFY_API_URL;
+
+  if (apiBaseUrl) {
+    hosts.add(new URL(apiBaseUrl).hostname);
   }
 
   return hosts;

@@ -13,14 +13,16 @@ export const PROJECT_REVALIDATE_SECONDS = 60 * 60;
 const PROJECTS_TAG = "projects";
 
 function getProjectsEndpoint() {
-  const datasetUrl = process.env.SPIFFY_DATASET_URL?.trim();
+  const datasetUrl =
+    process.env.APIFY_PROJECTS_DATASET_URL?.trim() || process.env.SPIFFY_DATASET_URL?.trim();
 
   if (datasetUrl) {
     return datasetUrl;
   }
 
-  const baseUrl = process.env.SPIFFY_API_URL?.trim();
-  const projectsPath = process.env.SPIFFY_PROJECTS_PATH?.trim() || "/projects";
+  const baseUrl = process.env.APIFY_API_URL?.trim() || process.env.SPIFFY_API_URL?.trim();
+  const projectsPath =
+    process.env.APIFY_PROJECTS_PATH?.trim() || process.env.SPIFFY_PROJECTS_PATH?.trim() || "/projects";
 
   if (!baseUrl) {
     return null;
@@ -44,8 +46,8 @@ async function fetchSpiffyProjects(): Promise<Project[]> {
     const response = await fetch(endpoint, {
       headers: {
         Accept: "application/json",
-        ...(process.env.SPIFFY_API_TOKEN
-          ? { Authorization: `Bearer ${process.env.SPIFFY_API_TOKEN}` }
+        ...((process.env.APIFY_API_TOKEN || process.env.SPIFFY_API_TOKEN)
+          ? { Authorization: `Bearer ${process.env.APIFY_API_TOKEN || process.env.SPIFFY_API_TOKEN}` }
           : {}),
       },
       next: {

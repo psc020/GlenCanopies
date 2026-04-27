@@ -56,6 +56,14 @@ function toInternalImageSource(value?: string) {
   return `/api/media?src=${encodeURIComponent(url)}`;
 }
 
+function normalizeFallbackTestimonials(testimonials: Testimonial[]) {
+  return testimonials.map((testimonial) => ({
+    ...testimonial,
+    avatarSrc: toInternalImageSource(testimonial.avatarSrc),
+    imageSrc: toInternalImageSource(testimonial.imageSrc),
+  }));
+}
+
 function normalizeQuote(value: string) {
   return value
     .replace(/\s+/g, " ")
@@ -143,7 +151,7 @@ async function fetchTestimonialsFeed(): Promise<Testimonial[]> {
   const endpoint = getTestimonialsEndpoint();
 
   if (!endpoint) {
-    return fallbackTestimonials;
+    return normalizeFallbackTestimonials(fallbackTestimonials);
   }
 
   try {
@@ -163,10 +171,12 @@ async function fetchTestimonialsFeed(): Promise<Testimonial[]> {
     const records = parseTestimonialsPayload(payload);
     const liveTestimonials = dedupeTestimonials(records.map(mapReview).filter(Boolean) as Testimonial[]);
 
-    return liveTestimonials.length > 0 ? liveTestimonials : fallbackTestimonials;
+    return liveTestimonials.length > 0
+      ? liveTestimonials
+      : normalizeFallbackTestimonials(fallbackTestimonials);
   } catch (error) {
     console.error("Unable to load testimonials", error);
-    return fallbackTestimonials;
+    return normalizeFallbackTestimonials(fallbackTestimonials);
   }
 }
 

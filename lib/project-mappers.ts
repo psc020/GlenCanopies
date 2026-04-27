@@ -31,7 +31,11 @@ function toInternalImageSource(value: string) {
 function isLikelyImageUrl(value: string) {
   try {
     const url = new URL(value);
-    return url.hostname.includes("fbcdn.net") || /\.(avif|gif|heic|heif|jpe?g|png|webp)$/i.test(url.pathname);
+    return (
+      url.hostname.includes("fbcdn.net") ||
+      url.hostname.includes("fbsbx.com") ||
+      /\.(avif|gif|heic|heif|jpe?g|png|webp)$/i.test(url.pathname)
+    );
   } catch {
     return false;
   }
