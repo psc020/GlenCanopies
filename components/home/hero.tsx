@@ -30,7 +30,7 @@ export function Hero() {
     <section className="relative isolate z-0 -mt-[var(--site-header-offset-max)] overflow-hidden bg-[#1D1D1D] text-white">
       <div className="absolute inset-0">
         <Image
-          src="/brand/hero/heronew.png"
+          src="/brand/hero/heronew.jpg"
           alt="Aerial view of homes across Ireland"
           fill
           priority

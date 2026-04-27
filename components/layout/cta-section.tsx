@@ -22,7 +22,7 @@ export function CTASection({
   description,
   primaryLabel = "Get a Free Quote",
   secondaryLabel = "View Recent Work",
-  backgroundImageSrc = "/brand/cta/schemenormal2.png",
+  backgroundImageSrc = "/brand/cta/schemenormal2.jpg",
   sectionClassName,
 }: CTASectionProps) {
   const phoneHref = getPhoneHref();

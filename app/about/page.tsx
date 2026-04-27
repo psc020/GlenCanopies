@@ -141,7 +141,7 @@ export default async function AboutPage() {
         eyebrow="About & Services"
         title="About Glen Canopies"
         description="Glen Canopies supplies and fits canopies across Ireland for homes, developments, and entrance upgrades. We also provide finishing details that help complete the overall look of the frontage."
-        backgroundImageSrc="/brand/page-headers/aboutservcies.png"
+        backgroundImageSrc="/brand/page-headers/aboutservcies.jpg"
         backgroundPosition="center 54%"
       />
       <div className="shell-container section-space space-y-14 md:space-y-16">

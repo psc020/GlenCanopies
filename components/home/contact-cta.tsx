@@ -10,7 +10,7 @@ export function ContactCTA() {
       style={{
         backgroundColor: "#1D1D1D",
         backgroundImage:
-          "linear-gradient(100deg, rgba(29,29,29,0.66) 0%, rgba(29,29,29,0.56) 38%, rgba(29,29,29,0.62) 100%), linear-gradient(180deg, rgba(0,0,0,0.14) 0%, rgba(0,0,0,0.28) 100%), url('/brand/cta/schemenormal2.png')",
+          "linear-gradient(100deg, rgba(29,29,29,0.66) 0%, rgba(29,29,29,0.56) 38%, rgba(29,29,29,0.62) 100%), linear-gradient(180deg, rgba(0,0,0,0.14) 0%, rgba(0,0,0,0.28) 100%), url('/brand/cta/schemenormal2.jpg')",
         backgroundPosition: "center 58%",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",

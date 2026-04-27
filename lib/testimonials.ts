@@ -53,6 +53,16 @@ function toInternalImageSource(value?: string) {
     return undefined;
   }
 
+  try {
+    const parsed = new URL(url);
+
+    if (parsed.hostname.includes("fbcdn.net") || parsed.hostname.includes("fbsbx.com")) {
+      return url;
+    }
+  } catch {
+    return undefined;
+  }
+
   return `/api/media?src=${encodeURIComponent(url)}`;
 }
 

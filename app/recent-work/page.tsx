@@ -100,7 +100,7 @@ export default async function RecentWorkPage({
         eyebrow="Recent Work"
         title="Recent Installations"
         description="Browse real canopy installations completed across homes and developments."
-        backgroundImageSrc="/brand/page-headers/recentwork.png"
+        backgroundImageSrc="/brand/page-headers/recentwork.jpg"
         backgroundPosition="center 52%"
       />
       <section className="shell-container section-space space-y-8">
